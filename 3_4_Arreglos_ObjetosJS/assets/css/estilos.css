@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;      
+}
+.main-section {
+background-image: url('../img/img-main.jpeg');
+background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+background-position: center;
+width: 250px;
+height: 300px; 
+display: flex;
+align-items: center;
+color:lightgray;
+text-align: center;   
+}
+
+.card-propiedad{  
+width:450px;  
+border-radius: 3%;
+border: 1px solid gray;   
+align-content: center;  
+margin: 20px;
+object-fit: contain;
+}
+.card-propiedad img{
+object-fit: contain;
+border-radius: 3%;
+/* width:350px;
+height:250px; */
+}
+.smoke-yes{
+color:darkgreen;
+}
+.smoke-no{
+color:darkred;
+}
+.petsAllowed{
+color:darkgreen;
+}
+.petsNotAllowed{
+color:darkred;
+}
+#seccionVenta {
+  display: flex;
+  flex-direction: row;    
+  align-items: center;   
+  flex-flow: row;
+  }
+#seccionAlquiler {
+display: flex;
+flex-direction: row;    
+align-items: center;  
+flex-flow: row;
+}
+#seccionVentaDetalle {
+  display: flex;
+  flex-direction: row;    
+  align-items: center;   
+  flex-flow: row;
+  flex-wrap: wrap;
+  }
+#seccionAlquilerDetalle {
+display: flex;
+flex-direction: row;    
+align-items: center;  
+flex-wrap: wrap;
+}
